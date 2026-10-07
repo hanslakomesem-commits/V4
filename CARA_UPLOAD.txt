@@ -1,0 +1,30 @@
+ZAIN.NET V4 — UPLOAD LANGSUNG KE GITHUB PAGES
+
+VERSI INI TIDAK MEMERLUKAN NPM / VITE / BUILD.
+
+1. Extract ZIP V4.
+2. Buka repository GitHub Anda.
+3. Pastikan berada di ROOT repository.
+   Benar:  github.com/username/nama-repo/upload/main
+   Salah:  .../upload/main/nama-folder
+4. Klik Add file > Upload files.
+5. Upload 7 file berikut:
+   - index.html
+   - app.js
+   - processor.js
+   - styles.css
+   - jszip.min.js
+   - README.md
+   - CARA_UPLOAD.txt
+6. Commit changes.
+7. Buka Settings > Pages.
+8. Pilih Deploy from a branch.
+9. Branch: main.
+10. Folder: /(root).
+11. Save.
+12. Tunggu sampai deployment selesai lalu klik Visit site.
+
+CATATAN:
+- index.html HARUS terlihat langsung di halaman utama repository.
+- Jika repository Anda sudah memakai GitHub Actions > Static HTML, cukup upload file V4 ke root dan tunggu Actions hijau.
+- Setelah hasil DOCX dibuka di Microsoft Word, tekan Ctrl+A lalu F9 untuk memperbarui field TOC/PAGE.
